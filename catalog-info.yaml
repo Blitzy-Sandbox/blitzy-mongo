@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: blitzy-mongo
+  description: the MongoDB Database
+  tags:
+  - cpp
+  annotations:
+    github.com/project-slug: Blitzy-Sandbox/blitzy-mongo
+    backstage.io/source-location: url:https://github.com/Blitzy-Sandbox/blitzy-mongo/tree/master/
+    backstage.io/techdocs-ref: dir:.
+  labels:
+    blitzy.com/language: cpp
+spec:
+  type: service
+  lifecycle: production
+  owner: blitzy-sandbox
+  system: blitzy-c-cpp
